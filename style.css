@@ -1,0 +1,595 @@
+/*Estilização login Administrador*/
+
+body{
+	margin: 0;
+    padding: 0;
+	
+}
+
+.formulario {
+  background-color: #fff;  /* Define a cor de fundo como branco */
+  display: block;  /* Exibe o elemento como bloco */
+  padding: 1rem;  /* Adiciona espaçamento interno de 1rem em todas as direções */
+  max-width: 350px;  /* Define a largura máxima como 350px */
+  border-radius: 0.5rem;  /* Define um raio de borda de 0.5rem para criar bordas arredondadas */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);  /* Cria uma sombra de caixa para adicionar um efeito tridimensional */
+}
+
+.formulario-titulo {
+  font-size: 1.25rem;  /* Define o tamanho da fonte como 1.25rem */
+  line-height: 1.75rem;  /* Define o espaçamento entre linhas como 1.75rem */
+  font-weight: 600;  /* Define o peso da fonte como 600 (negrito) */
+  text-align: center;  /* Alinha o texto centralmente */
+  color: #000;  /* Define a cor do texto como preto */
+}
+
+.input-Rasenha {
+  position: relative;  /* Define a posição como relativa */
+}
+
+.input-Rasenha input, .formulario button {
+  outline: none;  /* Remove o contorno quando o elemento está em foco */
+  border: 1px solid #e5e7eb;  /* Define uma borda de 1px sólida com a cor #e5e7eb */
+  margin: 8px 0;  /* Adiciona margem de 8px na parte superior e inferior e 0 nas laterais */
+}
+
+.input-Rasenha input {
+  background-color: #fff;  /* Define a cor de fundo do input como branco */
+  padding: 1rem;  /* Adiciona espaçamento interno de 1rem em todas as direções */
+  padding-right: 3rem;  /* Adiciona um espaçamento interno de 3rem apenas na direção direita */
+  font-size: 0.875rem;  /* Define o tamanho da fonte como 0.875rem */
+  line-height: 1.25rem;  /* Define o espaçamento entre linhas como 1.25rem */
+  width: 300px;  /* Define a largura do input como 300px */
+  border-radius: 0.5rem;  /* Define um raio de borda de 0.5rem para criar bordas arredondadas */
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);  /* Cria uma sombra de caixa para adicionar um efeito tridimensional */
+}
+
+.input-Rasenha span {
+  display: grid;  /* Exibe o elemento como uma grade */
+  position: absolute;  /* Define a posição como absoluta */
+  top: 0;  /* Alinha o elemento no topo */
+  bottom: 0;  /* Alinha o elemento na parte inferior */
+  right: 0;  /* Alinha o elemento à direita */
+  padding-left: 1rem;  /* Adiciona espaçamento interno de 1rem apenas na direção esquerda */
+  padding-right: 1rem;  /* Adiciona espaçamento interno de 1rem apenas na direção direita */
+  place-content: center;  /* Alinha o conteúdo centralmente na grade */
+}
+
+.input-Rasenha span svg {
+  color: #9CA3AF;  /* Define a cor do ícone como #9CA3AF */
+  width: 1rem;  /* Define a largura do ícone como 1rem */
+  height: 1rem;  /* Define a altura do ícone como 1rem */
+}
+
+.submit {
+  display: block;  /* Exibe o elemento como bloco */
+  padding-top: 0.75rem;  /* Adiciona espaçamento interno de 0.75rem na parte superior */
+  padding-bottom: 0.75rem;  /* Adiciona espaçamento interno de 0.75rem na parte inferior */
+  padding-left: 1.25rem;  /* Adiciona espaçamento interno de 1.25rem na parte esquerda */
+  padding-right: 1.25rem;  /* Adiciona espaçamento interno de 1.25rem na parte direita */
+  background-color: #4F46E5;  /* Define a cor de fundo como #4F46E5 */
+  color: #ffffff;  /* Define a cor do texto como branco */
+  font-size: 0.875rem;  /* Define o tamanho da fonte como 0.875rem */
+  line-height: 1.25rem;  /* Define o espaçamento entre linhas como 1.25rem */
+  font-weight: 500;  /* Define o peso da fonte como 500 */
+  width: 100%;  /* Define a largura do elemento como 100% */
+  border-radius: 0.5rem;  /* Define um raio de borda de 0.5rem para criar bordas arredondadas */
+  text-transform: uppercase;  /* Transforma o texto em letras maiúsculas */
+  color:black;
+}
+
+.senha-link {
+  color: #6B7280;  /* Define a cor do texto como #6B7280 */
+  font-size: 0.875rem;  /* Define o tamanho da fonte como 0.875rem */
+  line-height: 1.25rem;  /* Define o espaçamento entre linhas como 1.25rem */
+  text-align: center;  /* Alinha o texto centralmente */
+}
+
+.senha-link a {
+  text-decoration: underline;  /* Adiciona um sublinhado ao link */
+}
+
+main{
+  text-align: center;  /* Alinha o conteúdo centralmente */
+  display: flex;  /* Exibe o elemento como flexível */
+  justify-content: center;  /* Alinha o conteúdo centralmente horizontalmente */
+  flex-wrap: nowrap;  /* Impede que os itens flexíveis sejam quebrados em várias linhas */
+  flex-direction: row-reverse;  /* Define a direção dos itens flexíveis como reversa, da direita para a esquerda */
+  align-items: center;  /* Alinha o conteúdo centralmente verticalmente */
+  margin-top: 0px;  /* Adiciona uma margem superior de 120px */
+}
+
+.formMM{
+	margin-top:110px;
+}
+
+/*Estilização login User*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header{
+	background-color: #d1b4a2;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 1px;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+	height:60px;
+}
+	
+	
+
+
+img{
+	margin:15px;
+   max-width:70px;
+}
+
+
+
+.divButon{
+	margin-right:50px;
+	
+}
+
+.buttao{
+	
+	border-radius:0px;
+	margin:5px;
+	height:2px;
+	font-style:none;
+	border:none;
+	background-color:#d1b4a2;
+	cursor:pointer;
+	
+	text-decoration:none;
+	transition: all 0s ease 0;
+	transition-timing-function: liner;
+	transition-duration: 0s;
+	height:60px;
+}
+
+.buttao:hover{
+	background-color:#C9A792;
+	
+}
+
+.titulocabecalho{
+	color:#332923;
+	margin-left:150px;
+}
+
+a{
+	text-decoration:none;
+	color:#332923;
+}
+
+
+/*Estilização Consultar Manutenção*/
+
+.h4{
+}
+
+.sectionM {
+    background-color:rgb(196, 189, 189);
+    border-radius: 5px;
+    padding: 30px;
+    width: 300px;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 30px;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: space-between;
+}
+.mainCm{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.navM{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.consultaman{
+    margin:80px;
+}
+
+/*BOTAO*/
+
+.ButBusca {
+    display: flex;
+    height: 3em;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: 2px;
+    border-color: black;
+    background: rgb(196, 189, 189);
+   }
+   
+   
+   .ButBusca:hover > svg {
+    font-size: 1.2em;
+    transform: translateX(-5px);
+   }
+   
+   .ButBusca:hover {
+    box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+    transform: translateY(-2px);
+   }
+   
+   .ButLista {
+    display: flex;
+    height: 3em;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: 2px;
+    border-color: black;
+    background: rgb(196, 189, 189);
+	margin-top:20px;
+   }
+   
+   
+   .ButLista:hover > svg {
+    font-size: 1.2em;
+    transform: translateX(-5px);
+   }
+   
+   .ButLista:hover {
+    box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+    transform: translateY(-2px);
+   }
+
+
+   /* INPUT */
+
+   .input {
+    max-width: 190px;
+    background-color: #f5f5f5;
+    color: #242424;
+    padding: .15rem .5rem;
+    min-height: 40px;
+    border-radius: 4px;
+    outline: none;
+    margin: 2px;
+    border: none;
+    line-height: 1.15;
+    box-shadow: 0px 10px 20px -18px;
+  }
+  
+  .input:focus {
+    border-bottom: 2px solid #5b5fc7;
+    border-radius: 4px 4px 2px 2px;
+  }
+  
+  .input:hover {
+    outline: 1px solid lightgrey;
+  }
+  
+  /*Todos os elementos do formulario*/
+.css_formulario{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    justify-content: center;
+}
+
+/*Formulários*/
+.form_formulario{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.section_formulario{
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    font-weight: bold;
+    border-radius: 6px;
+    width: 450px;
+    display: flex;
+    padding: 60px;
+    margin: 10px;
+    background-color: rgb(196, 189, 189);
+}
+
+/*Quadro de inserção de texto*/
+textarea {
+    border-radius: 4px;
+    height: 40px;
+    width: 200px;
+    padding: 0px;
+    margin: 0px;
+    resize: none;
+    font-size: 14px;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+
+
+label {
+    display: block;
+    display: flex;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-align: right;
+    width: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div{
+    width: auto;
+}
+
+/*Recuperar senha */
+.recuperartudo{
+  display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.popup {
+  position: relative;
+  width: 320px;
+  height: fit-content;
+  background: #FFFFFF;
+  box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01), 0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09), 0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 13px;
+  margin-left: 120px;
+  margin:80px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background: #ECF1FD;
+  box-shadow: 0px 0.5px 0.5px #EFEFEF, 0px 1px 0.5px rgba(239, 239, 239, 0.5);
+  border-radius: 5px;
+}
+
+.note {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #2B2B2F;
+}
+
+.subtitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  color: #5F5D6B;
+}
+
+.input_field {
+  width: 100%;
+  height: 42px;
+  padding: 0 0 0 12px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #e5e5e5;
+  filter: drop-shadow(0px 1px 0px #efefef)
+    drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
+  transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+
+.input_field:focus {
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 0px 1px #2B2B2F;
+  background-color: transparent;
+}
+
+.form button.submit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 18px;
+  gap: 10px;
+  width: 100%;
+  height: 42px;
+  background: linear-gradient(180deg, #4480FF 0%, #115DFC 50%, #0550ED 100%);
+  box-shadow: 0px 0.5px 0.5px #EFEFEF, 0px 1px 0.5px rgba(239, 239, 239, 0.5);
+  border-radius: 5px;
+  border: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+}
+  
+.submit {
+  cursor: pointer;
+}
+
+
+
+
+
+
+/*Campo para verificação de email*/
+.formuu {
+  width: 290px;
+  height: 250px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2.5em;
+  background-color: #ffffff;
+  box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01), 0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09), 0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  transition: .4s ease-in-out;
+  padding: 15px;
+  margin-right: 120px;
+  margin:80px;
+}
+
+.heading {
+  width: 90%;
+  position: relative;
+  text-align: center;
+  color: #2B2B2F;
+  top: 1em;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.inputt {
+  position: relative;
+  width: 2.4em;
+  height: 2.4em;
+  margin: 0.5em;
+  border-radius: 0.75em;
+  border: none;
+  outline: none;
+  background-color:#B9B9B9;
+  color: #e8e8e8;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: justify;
+  top: 2.7em;
+  padding-left: 15px;
+}
+
+.submitt {
+  position: relative;
+  top: 5.1em;
+  padding: 10px 25px;
+  border-radius: 5em 0em 0em 5em;
+  font-size: 15px;
+  font-family: sans-serif;
+  border: 2px solid #21212100;
+  outline: none;
+  transition: 0.2s;
+  background-color: #115DFC;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+
+
+.exit {
+  position: relative;
+  top: 5.1em;
+  padding: 10px 35px;
+  border-radius: 0em 5em 5em 0em;
+  font-size: 15px;
+  font-family: sans-serif;
+  border: 2px solid #21212100;
+  outline: none;
+  transition: 0.2s;
+  background-color: #115DFC;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+
+.navRecuperarsenha{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+/*Rodape*/
+
+.rodape {
+    display: flex;
+    padding: 0px;
+    background-color: #d1b4a2;
+    font-size: 14px;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 90px;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+	margin-top:20px;
+	
+
+}
+
+
+.section1{
+margin-top:40px;
+
+}
+
+.logo{
+    display: flex;
+    padding: 13px;
+    height: 80px;
+    width: 80px;
+    justify-content: flex-start;
+    align-content: flex-end;
+    flex-direction: column-reverse;
+}
+
+p{
+    width: 300px;
+}
